@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+ }
+
+ header{
+    text-align: center;
+ }
+
+ div header a img {
+    width: 5vh;
+    margin: 5px;
+ }
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ .contenedor {
+    margin-left: 50vh;
+    margin-right: 50vh;
+    background-color: transparent; /* Cambiado de blanco a transparente */
+    position: relative;
+    height: 100vh;
+}
+
+
+.boton {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    padding-left: 5px;
+    margin: 20px;
+    background:yellow;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+.fotoPerfil {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+
+
