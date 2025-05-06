@@ -5,16 +5,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
  }
 
  header{
     text-align: center;
- }
-
- div header a img {
-    width: 5vh;
-    margin: 5px;
  }
 
  div header li {
@@ -30,9 +24,12 @@ h2 {
     font-size: 20px;
 }
 
+ul {
+    list-style: none;
+}
+
  .contenedor {
-    margin-left: 50vh;
-    margin-right: 50vh;
+    margin: 0 auto;
     background-color: transparent; /* Cambiado de blanco a transparente */
     position: relative;
     height: 100vh;
@@ -43,8 +40,7 @@ h2 {
     display: block;
     text-align: center;
     padding: 15px;
-    padding-left: 5px;
-    margin: 20px;
+    margin: 20px auto;
     background:yellow;
     color: black;
     border: none;
@@ -52,8 +48,14 @@ h2 {
     cursor: pointer;
     font-size: 20px;
     text-decoration: none;
+    width: 700px;
 }
 
+.boton:hover {
+    color: black;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
 
 
 .fotoPerfil {
@@ -66,6 +68,10 @@ h2 {
     object-fit: cover;
 }
 
+.logos {
+    width: 5vh;
+    margin: 5px;
+}
 
 
 
