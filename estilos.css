@@ -29,6 +29,7 @@ ul {
 }
 
  .contenedor {
+/*  margin: 0 auto;    */
     margin-top 50px;
     background-color: transparent; /* Cambiado de blanco a transparente */
     position: relative;
