@@ -1,5 +1,5 @@
 body {
-    margin; 0;
+    margin: 0;
     padding: 0;
     background-image: url('imagenes/fondo.jpg');
     background-size: cover;
@@ -30,7 +30,7 @@ ul {
 
  .contenedor {
 /*  margin: 0 auto;    */
-    margin-top 50px;
+    margin-top: 8%;
     background-color: transparent; /* Cambiado de blanco a transparente */
     position: relative;
     height: 100vh;
