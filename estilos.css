@@ -30,7 +30,7 @@ ul {
 
  .contenedor {
 /*  margin: 0 auto;    */
-    margin-top: 8%;
+    margin-top: 5%;
     background-color: transparent; /* Cambiado de blanco a transparente */
     position: relative;
     height: 82vh;
@@ -61,11 +61,12 @@ ul {
 
 .fotoPerfil {
     display: block;
-    margin: 0 auto;
+    
     margin-top: 20px;
-    width: 100px;
-    height: 110px;
-    border-radius: 100px;
+    margin-left: 43%;
+    width: 300px;
+    height: 200px;
+    border-radius: 70px;
     object-fit: cover;
 }
 
