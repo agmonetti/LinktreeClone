@@ -79,53 +79,63 @@ a {
     border: .625rem solid greenyellow;
 }
 
-/*  
- .contenedorInfo {
-margin: 0 auto;    
-    margin-top: 5%;
-    background-color: transparent; /* Cambiado de blanco a transparente
-    position: relative;
- }
 
+@media screen and (min-width: 768px){
+    h1{
+        font-size: 48px;
+    }
 
-.boton {
-    display: block;
-    text-align: center;
-    padding: 15px;
-    margin: 20px auto;
-    background:yellow;
-    color: black;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 20px;
-    text-decoration: none;
-    width: 700px;
-}
+    h2 {
+        font-size: 24px;
+    }
 
-.boton:hover {
-    color: black;
-    transition: 0.3s;
-    transform: scale(1.1);
-}
+    .fotoPerfil {
+        width: 350px;
+        height: 230px;
+    }
 
-
-.fotoPerfil {
-    display: block;
+    .logos {
+        width: 3rem;
+        margin-right: 1.2rem;
+    }
     
-    margin-top: 20px;
-    margin-left: 43%;
-    width: 300px;
-    height: 200px;
-    border-radius: 70px;
-    object-fit: cover;
+    .botones li {
+        width: 30rem;
+        font-size: 1.8rem;
+    }
 }
 
-.logos {
-    width: 5vh;
-    margin: 5px;
+/* Escritorio (1024px y superior) */
+@media screen and (min-width: 1024px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+    
+    h1 {
+        font-size: 56px;
+    }
+    
+    .fotoPerfil {
+        width: 400px;
+        height: 260px;
+    }
+    
+    .botones {
+        width: 80%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .botones li {
+        width: 25rem;
+        font-size: 2rem;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .botones li:hover {
+        transform: scale(1.05);
+    }
 }
-
- */
 
 
