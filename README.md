@@ -1,7 +1,7 @@
-# LinkTree Personal - Agustín Monetti - (https://agmonetti.github.io/LinktreeClone/)
+# LinkTree Personal - Agustín Monetti - 
 
 ## Descripción
-Portal de enlaces personales que centraliza acceso a mis proyectos académicos y profesionales en el campo de la Ingeniería Informática.
+Portal de enlaces personales que centraliza acceso a mis proyectos académicos y profesionales en el campo de la Ingeniería Informática. (https://agmonetti.github.io/LinktreeClone/)
 
 ## Contenido
 - **TP1: Identikit** - Blog personal
